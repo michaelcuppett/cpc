@@ -1,0 +1,20 @@
+.tribe-events-thumbnail {
+  display: none;
+}
+
+.big {
+  color: #901419;
+}
+
+blockquote {
+  color: #901419;
+  font-weight: bold;
+  max-width: 80%;
+}
+
+blockquote p {
+  outline: none;
+  background: #fadcdd;
+  display: inline;
+  line-height: 1.75em;
+}
