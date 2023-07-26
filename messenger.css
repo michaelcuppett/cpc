@@ -1,12 +1,24 @@
-.tribe-events-thumbnail {
+.entry-title {
+  background-color: #033a70;
+  border-top: 1rem solid #05529f;
+}
+
+.entry-title::after {
+  content: "From The Messenger";
+  display: block;
+  font-size: 0.8em;
+}
+
+.news-header-inner {
+  text-align: center;
+}
+
+.news-header-inner figure {
   display: none;
 }
 
-.big {
-  color: #901419;
-}
-
 blockquote {
+  border-left: 0px;
   color: #901419;
   font-weight: bold;
   max-width: 80%;
@@ -17,4 +29,23 @@ blockquote p {
   background: #fadcdd;
   display: inline;
   line-height: 1.75em;
+}
+
+figcaption {
+  color: #6999db;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 1em;
+}
+
+figcaption::before {
+  content: " ";
+  display: block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid #6999db;
+  border-top: 3px solid #6999db;
+  transform: rotate(45deg);
 }
