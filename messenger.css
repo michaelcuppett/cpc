@@ -19,14 +19,14 @@
 
 blockquote {
   border-left: 0px;
-  color: #901419;
+  color: #05529f;
   font-weight: bold;
   max-width: 80%;
 }
 
 blockquote p {
   outline: none;
-  background: #fadcdd;
+  background: #e4edf7;
   display: inline;
   line-height: 1.75em;
 }
