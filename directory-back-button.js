@@ -1,4 +1,4 @@
-function init() {
+function initBackButton() {
   let button, back, title;
   
   back = document.createElement('span');
@@ -42,3 +42,4 @@ function init() {
   title.style.width = '0px';
   title.style.opacity = '0';
 }
+initBackButton();
